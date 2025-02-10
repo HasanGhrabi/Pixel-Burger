@@ -1,0 +1,23 @@
+.footer{
+  background-image: url('../../assets/img/footer.png');
+  background-size: 33.3% 100%;
+  background-repeat: repeat;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.footer-text{
+  filter: drop-shadow( 1px 1px 2px black);
+  font-family: font-pixel;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--color-old-green);
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+}
+
+

@@ -1,0 +1,90 @@
+
+
+.section{
+margin-top: 1rem;
+}
+
+.btn{
+  background-image: url('../assets/img/radio.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  background-color: none;
+  color: var(--color-old-green);
+  padding: 1em 2em;
+}
+
+
+.screen-background{
+  background-image: url('../assets/img/screen.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cracked-screen-background{
+  background-image: url('../assets/img/cracked-screen.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+
+}
+
+
+@media (min-width: 475px) {
+  
+  .container{
+    max-width:  475px;
+  }
+}
+
+@media (min-width: 640px) {
+  
+  .container{
+    max-width:  640px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  
+  .container{
+    max-width:  768px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  
+  .container{
+    max-width:  1024px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  
+  .container{
+    max-width:  1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  
+  .container{
+    max-width:  1536px;
+  }
+
+}

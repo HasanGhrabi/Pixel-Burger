@@ -1,0 +1,24 @@
+:root{
+  --color-wood: #966F33;
+}
+
+.display-ingre-box{
+    background-image: url('../../assets/img/order-back.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.display{
+  filter: drop-shadow(11px 11px 8px black);
+
+  margin-top: var(--size-11xl);
+  width: 50%;
+  
+  
+
+}

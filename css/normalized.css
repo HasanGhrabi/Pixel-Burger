@@ -1,0 +1,28 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  line-height: calc(1em + 0.5rem);
+}
+
+body{
+  font-family: font-pixel;
+  background-color: black;
+  background-image: url('../assets/img/back.gif');
+  background-size: 100px 100px;
+  background-repeat: repeat;
+}
+
+img,
+picture,
+svg,
+{
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

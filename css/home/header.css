@@ -1,0 +1,140 @@
+:root{
+  /*Sizes*/
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+  --size-11xl: 13rem;
+
+  /*Fonts*/
+  --font-cursive: cursive;
+  --font-bold: bold;
+  --font-italic: italic;
+
+  --color-old-green: #2a730e;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face{
+  font-family: 'font-pixel';
+  src: url('../../font/font-pixel.otf') format('opentype'),
+       url('../../font/font-pixel.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  
+     }
+
+     /*make responsive if I still have time*/
+@media (min-width: 475px) {
+  
+  .container{
+  }
+}
+
+@media (max-width: 640px) {
+  
+  .order-gif{
+    max-width: var(--size-5xl);
+  }
+}
+
+
+@media (min-width: 768px) {
+  
+  .container{
+  }
+}
+
+
+@media (min-width: 1024px) {
+  
+  .container{
+  }
+}
+
+
+@media (min-width: 1280px) {
+  
+  .container{
+  }
+}
+
+.Header-container{
+  background-image: url('../../assets/img/screen.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  margin-inline: auto;
+  padding: .5rem;
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+}
+
+
+.Header-logo-container{
+
+  width: 100%;
+  padding-left: 10vw; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--size-xxs);
+}
+
+.Header-logo-img{
+  padding: var(--size-sm);
+  padding-left: var(--size-xxs);
+  width: var(--size-7xl);
+}
+
+.Header-logo-title{
+  color: var(--color-old-green);
+  font-size: var(--size-3xl);
+  font-family: font-pixel;
+  font-weight: var(--font-bold);
+  font-style: var(--font-italic);
+  letter-spacing: -1px;
+}
+
+.Header-menu-container{
+  
+}
+
+.Header-menu-img{
+  padding-right: 8vw;
+  width: 2em;
+  height: 2em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

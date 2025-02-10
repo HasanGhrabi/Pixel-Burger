@@ -1,0 +1,50 @@
+.crew{
+  background-image: url('../../assets/img/billboard.png');
+  background-size: 50% 100%;
+  display: grid;
+  grid-template: repeat(6, 1fr);
+  justify-content: space-evenly;
+}
+
+.crew-box{
+  padding: 4em;
+  grid-area: 1/3/6/6;
+}
+
+.crew-gif{
+ width: var(--size-11xl);
+ padding: 1em;
+ margin-left: 25%;
+
+}
+
+.crew-text{
+
+  font-family: font-pixel;
+  font-style: italic;
+  color: var(--color-old-green);
+  font-size: var(--size-2xl)
+}
+
+.crew-link-wrapper{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  grid-area: 1/1/3/3;
+  
+}
+
+.crew-link{
+  filter: drop-shadow(8px 25px 9px black);
+  text-align: center;
+  font-size: var(--size-lg);
+  padding: 5em 8em;
+  margin-top: 10%;
+  margin-left: 10vw;
+}
+
+.crew-link-back{
+  width: 100%;
+  grid-area: 1/3/6/6;
+  z-index: -1;
+}
